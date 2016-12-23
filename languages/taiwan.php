@@ -864,12 +864,12 @@ $LNG['history'] = '歷史';
 $LNG['payments'] = '付款';
 $LNG['completed'] = '已完成';
 $LNG['refunded'] = '退款';
-$LNG['reversed'] = 'Reversed';
+$LNG['reversed'] = '反轉';
 $LNG['pending'] = '等待中';
 $LNG['suspended'] = '停權';
 $LNG['failed'] = '失敗';
 $LNG['denied'] = '拒絕';
-$LNG['promote'] = 'Promote';
+$LNG['promote'] = '促銷';
 $LNG['promoted'] = '該帳戶已升級到專業版';
 $LNG['promote_info'] = '將此帳戶升級為專業版';
 
