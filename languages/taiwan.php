@@ -103,7 +103,7 @@ $LNG['general_link'] = '一般';
 $LNG['security_link'] = '安全';
 $LNG['manage_users'] = '管理帳號';
 
-$LNG['theme_install'] = '要安裝新主題，請將主題文件上傳到 <strong>themes</strong> 資料夾';
+$LNG['theme_install'] = '如果安裝新主題，請將主題文件上傳到 <strong>themes</strong> 資料夾';
 $LNG['theme_author_homepage'] = '訪問作者主頁';
 $LNG['theme_version'] = '版本';
 $LNG['theme_active'] = '活性';
@@ -589,23 +589,23 @@ $LNG['admin_ttl_wholiked'] = '誰喜歡';
 $LNG['admin_sub_wholiked'] = '顯示喜歡的使用者頭像';
 
 $LNG['admin_ttl_rperpage'] = '管理面板';
-$LNG['admin_sub_rperpage'] = 'Results per page for Admin Manage pages';
+$LNG['admin_sub_rperpage'] = '管理面板每一頁顯示的數量';
 
 $LNG['admin_ttl_sperpage'] = '朋友';
-$LNG['admin_sub_sperpage'] = 'Number of friends per page to be displayed (profile page)';
+$LNG['admin_sub_sperpage'] = '每一頁要顯示的朋友數量(個人檔案頁面)';
 
 $LNG['admin_ttl_aperip'] = '帳戶';
-$LNG['admin_sub_aperip'] = 'Number of accounts allowed to register per IP (0 for unlimited)';
+$LNG['admin_sub_aperip'] = '每 IP 允許註冊的帳戶數目 (0=不限制)';
 
 $LNG['admin_ttl_ronline'] = '線上的朋友';
-$LNG['admin_sub_ronline'] = 'Number of online friends to be displayed on the Feed/Subscriptions page (sidebar).';
+$LNG['admin_sub_ronline'] = '線上的朋友上顯示的數量 (側邊攔).';
 
 $LNG['admin_ttl_nperwidget'] = '下拉清單通知';
-$LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, tracks)';
+$LNG['admin_sub_nperwidget'] = '每一頁要顯示的通知數量 (喜歡, 留言, 音樂)';
 
 $LNG['admin_sub_tracking'] = '統計代碼';
 
-$LNG['per_page'] = '/ page';
+$LNG['per_page'] = '/ 頁';
 $LNG['per_ip'] = '/ IP';
 $LNG['second'] = '秒';
 $LNG['seconds'] = '秒';
@@ -705,7 +705,7 @@ $LNG['at_a_glance'] = '快速統計';
 $LNG['site_info'] = '網站資訊';
 $LNG['site_version'] = '<a href="%s" target="_blank">%s</a> %s 並使用 <a href="%s" rel="loadpage">%s</a> 主題';
 $LNG['online_users'] = '上線用戶';
-$LNG['useful_links'] = '有用的連結';
+$LNG['useful_links'] = '幫助連結';
 $LNG['get_themes'] = '取得更多主題';
 $LNG['get_languages'] = '取得更多語言';
 
@@ -769,7 +769,7 @@ $LNG['enable'] = '啟用';
 $LNG['general'] = '一般';
 $LNG['registration'] = '註冊';
 $LNG['limits'] = '限制';
-$LNG['emails'] = 'Emails';
+$LNG['emails'] = '電子郵件';
 $LNG['recover_sub_username'] = '輸入要恢復密碼的帳號';
 $LNG['delete_track_desc'] = '你確定要刪除這首音樂?';
 $LNG['delete_playlist_desc'] = '你確定要刪除這個播放清單?';
@@ -819,13 +819,13 @@ $LNG['people'] = 'people';
 $LNG['join_date'] = '加入日期';
 
 // PHP MODULES
-$LNG['openssl_error'] = 'You must enable <strong>OpenSSL</strong> extension on the server';
-$LNG['curl_error'] = 'Is recommended that <strong>cURL</strong> extension is enabled on the server';
+$LNG['openssl_error'] = '您必須在伺服器上啟用 <strong>OpenSSL</strong> ';
+$LNG['curl_error'] = '建議在伺服器上啟用 <strong>cURL</strong> 擴展';
 
 // PRO MESSAGES
-$LNG['go_pro_0'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks.';
-$LNG['go_pro_1'] = '獲取有關聽眾喜好更深入的統計信息。';
-$LNG['go_pro_2'] = 'Get more total storage space and upload longer tracks.';
+$LNG['go_pro_0'] = '獲取更多的統計資料，例如聽眾的來源，或誰聽過你的音樂.';
+$LNG['go_pro_1'] = '獲取有關聽眾喜好更深入的統計信息';
+$LNG['go_pro_2'] = '獲取更多的存儲空間和較大的單檔上傳大小';
 $LNG['go_pro_ttl_1'] = '了解更多';
 $LNG['go_pro_ttl_2'] = '取得更多';
 $LNG['go_pro_3'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks, more storage space and upload longer tracks.';
