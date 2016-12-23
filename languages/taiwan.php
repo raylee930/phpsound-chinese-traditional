@@ -249,9 +249,9 @@ $LNG['congratulations'] = '恭喜';
 $LNG['track_uploaded'] = '您的音樂 <strong><a href="%s" rel="loadpage">%s</a></strong> 已成功上傳';
 $LNG['or'] = 'or';
 
-$LNG['license'] = '許可證';
-$LNG['licensed_under'] = 'Licensed under';
-$LNG['metadata'] = '中繼資料';
+$LNG['license'] = '授權';
+$LNG['licensed_under'] = '授權方式';
+$LNG['metadata'] = '進階';
 $LNG['permissions'] = '權限';
 $LNG['buy_link'] = '購買連結';
 $LNG['release_date'] = '發布日期';
@@ -261,15 +261,15 @@ $LNG['visibility'] = '隱私權';
 $LNG['allow_downloads'] = '允許下載';
 $LNG['record_label'] = '記錄標籤';
 $LNG['all_rights'] = '版權所有';
-$LNG['creative_commons'] = '創作共用';
-$LNG['license_at'] = 'Attribution';
-$LNG['license_nc'] = '非商業';
+$LNG['creative_commons'] = 'CC授權';
+$LNG['license_at'] = '姓名標示';
+$LNG['license_nc'] = '非商業性';
 $LNG['license_nd'] = '無衍生作品';
-$LNG['license_sa'] = '分享相似';
-$LNG['license_at_desc'] = 'You let others copy, distribute, display, and perform your copyrighted work - and derivative works based upon it - but only if they give credit the way you request.';
-$LNG['license_nc_desc'] = 'You let others copy, distribute, display, and perform your work - and derivative works based upon it - but for noncommercial purposes only.';
-$LNG['license_nd_desc'] = 'You let others copy, distribute, display, and perform only verbatim copies of your work, not derivative works based upon it.';
-$LNG['license_sa_desc'] = 'You allow others to distribute derivative works only under a license identical to the license that governs your work.';
+$LNG['license_sa'] = '相同方式分享';
+$LNG['license_at_desc'] = '他人必須按照著作人或授權人所指定的方式，表彰其姓名';
+$LNG['license_nc_desc'] = '他人不得因獲取商業利益或私人金錢報酬為主要目的來利用作品';
+$LNG['license_nd_desc'] = '您允許它人可以重製作品但不得變更、變形或修改';
+$LNG['license_sa_desc'] = '如果他人變更、變形或修改本著作，則僅能依同樣的授權條款來散布該衍生作品';
 
 // USER PANEL //
 $LNG['user_menu_general'] = '一般';
@@ -560,8 +560,8 @@ $LNG['admin_ttl_edit_profile'] = '編輯用戶';
 
 $LNG['admin_ttl_delete_profile'] = '刪除用戶';
 
-$LNG['admin_ttl_mail'] = 'Email';
-$LNG['admin_ttl_username'] = 'Username';
+$LNG['admin_ttl_mail'] = '電子郵件';
+$LNG['admin_ttl_username'] = '帳號';
 $LNG['admin_ttl_id'] = 'ID'; // As in user ID
 
 $LNG['admin_ttl_notificationl'] = '喜歡的通知';
@@ -901,7 +901,7 @@ $LNG['categories'] = '分類';
 $LNG['stream'] = '動態';
 $LNG['track'] = '音樂';
 $LNG['tracks'] = '音樂';
-$LNG['pages'] = 'Pages';
+$LNG['pages'] = '頁面';
 $LNG['report'] = '檢舉';
 $LNG['stats'] = '統計';
 $LNG['author'] = '作者';
