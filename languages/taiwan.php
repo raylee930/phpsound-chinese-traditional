@@ -6,8 +6,8 @@ $LNG['email_exists'] = '此電子郵件已被使用';
 $LNG['all_fields'] = '所有欄位為必填項';
 $LNG['user_alnum'] = '用戶名必須由字母和數字組成';
 $LNG['user_too_short'] = '用戶名必須介於3到32個字符之間';
-$LNG['user_limit'] = '此IP創建的帳戶太多';
-$LNG['invalid_email'] = '錯誤的 e-mail';
+$LNG['user_limit'] = '此IP註冊的帳戶以超出上限';
+$LNG['invalid_email'] = '錯誤的電子郵件';
 $LNG['invalid_user_pw'] = '帳號或密碼錯誤';
 $LNG['invalid_captcha'] = '驗證碼錯誤';
 $LNG['log_out'] = '登出';
@@ -106,9 +106,9 @@ $LNG['manage_users'] = '管理帳號';
 $LNG['theme_install'] = '如果安裝新主題，請將主題文件上傳到 <strong>themes</strong> 資料夾';
 $LNG['theme_author_homepage'] = '訪問作者主頁';
 $LNG['theme_version'] = '版本';
-$LNG['theme_active'] = '活性';
+$LNG['theme_active'] = '已啟用';
 $LNG['theme_activate'] = '啟用';
-$LNG['by'] = 'By';
+$LNG['by'] = '作者';
 
 // STREAM //
 $LNG['welcome_stream_ttl'] = '還迎來到你的動態';
@@ -169,10 +169,10 @@ $LNG['report_track'] = '檢舉音樂';
 $LNG['signature'] = '簽名';
 $LNG['sub_signature'] = '在此框中鍵入您的全名作為您的電子簽名';
 $LNG['report_description'] = '請盡可能詳細地說明您認為遭到侵權的作品';
-$LNG['report1'] = 'I have a good faith belief that use of the copyrighted work described above is not authorized by the copyright owner, its agent or the law';
-$LNG['report2'] = 'I confirm that the information in this notification is accurate';
+$LNG['report1'] = '我有充分的理由相信，上述版權作品的使用未經版權所有者，其代理或法律授權';
+$LNG['report2'] = '我確認此檢舉中的信息準確無誤';
 $LNG['report3'] = 'I confirm that I am the copyright owner or am authorised to act on behalf of the owner of an exclusive right that is allegedly infringed. Where I am making notice pursuant to the United States Digital Millennium Copyright Act U.S.C. 17 &sect;512(c), I make this statement under penalty of perjury';
-$LNG['rep_resc_error'] = 'The description should be less than %s characters';
+$LNG['rep_resc_error'] = '描述應小於 %s 個字符';
 $LNG['abusive_comment'] = '濫用評論';
 $LNG['copyright_infringement'] = '侵犯版權';
 $LNG['claimant'] = '提出要求者';
@@ -191,8 +191,8 @@ $LNG['archive'] = '歸檔';
 $LNG['statistics'] = '統計';
 $LNG['all_notifications'] = '所有通知';
 $LNG['all_time'] = '所有時間';
-$LNG['subscriptions'] = '好友';
-$LNG['subscribers'] = '好友';
+$LNG['subscriptions'] = '訂閱';
+$LNG['subscribers'] = '訂閱者';
 $LNG['welcome'] = '歡迎';
 $LNG['sidebar_people'] = 'People';
 $LNG['sidebar_tracks'] = '音樂';
@@ -322,7 +322,7 @@ $LNG['ttl_offline'] = '線上狀態';
 $LNG['sub_offline'] = '聊天的可見性狀態';
 
 $LNG['ttl_facebook'] = 'Facebook';
-$LNG['sub_facebook'] = '你的 ID';
+$LNG['sub_facebook'] = '你的 Facebook ID';
 
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = '你的 Twitter 用戶名稱';
@@ -700,7 +700,7 @@ $LNG['earnings_last_30'] = '最近30天';
 $LNG['total_earnings'] = '所有收入';
 
 // DASHBOARD
-$LNG['admin_panel'] = 'Admin Panel';
+$LNG['admin_panel'] = '管理面板';
 $LNG['at_a_glance'] = '快速統計';
 $LNG['site_info'] = '網站資訊';
 $LNG['site_version'] = '<a href="%s" target="_blank">%s</a> %s 並使用 <a href="%s" rel="loadpage">%s</a> 主題';
@@ -819,7 +819,7 @@ $LNG['people'] = 'people';
 $LNG['join_date'] = '加入日期';
 
 // PHP MODULES
-$LNG['openssl_error'] = '您必須在伺服器上啟用 <strong>OpenSSL</strong> ';
+$LNG['openssl_error'] = '您必須在伺服器上啟用 <strong>OpenSSL</strong> 擴展';
 $LNG['curl_error'] = '建議在伺服器上啟用 <strong>cURL</strong> 擴展';
 
 // PRO MESSAGES
@@ -828,7 +828,7 @@ $LNG['go_pro_1'] = '獲取有關聽眾喜好更深入的統計信息';
 $LNG['go_pro_2'] = '獲取更多的存儲空間和較大的單檔上傳大小';
 $LNG['go_pro_ttl_1'] = '了解更多';
 $LNG['go_pro_ttl_2'] = '取得更多';
-$LNG['go_pro_3'] = 'Get more in-depth statistics like where your audience is located at, or who played your tracks, more storage space and upload longer tracks.';
+$LNG['go_pro_3'] = '獲取更多深入的統計信息，例如您的聽眾來源，或誰聽過您的音樂，更多的存儲空間和更大的檔案上傳大小';
 $LNG['go_pro_4'] = '更多的上傳空間，更多的統計訊息，更多的功能!';
 $LNG['current_plan'] = '您當前的方案是';
 $LNG['plan_0'] = '免費版';
